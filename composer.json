@@ -1,0 +1,44 @@
+{
+  "name": "ket-php/utils-truth",
+  "description": "Lightweight PHP utility for converting values to boolean without errors.",
+  "keywords": [
+    "php",
+    "truthy",
+    "utility",
+    "helpers",
+    "boolean",
+    "ketphp",
+    "ket-php"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "KetPHP\\Utils\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander Mikhno",
+      "email": "mikhno351@yandex.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ket-php/utils-safe": "^1.2",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "suggest": {
+    "ext-mbstring": "Recommended for multibyte string safety"
+  },
+  "prefer-stable": true,
+  "homepage": "https://github.com/mikhno351/KetPHP-Truth",
+  "support": {
+    "issues": "https://github.com/mikhno351/KetPHP-Truth/issues",
+    "source": "https://github.com/mikhno351/KetPHP-Truth"
+  }
+}
