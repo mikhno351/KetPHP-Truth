@@ -32,6 +32,9 @@
   "require-dev": {
     "phpunit/phpunit": "^10.5"
   },
+  "conflict": {
+    "ket-php/utils-safe": "<=1.2"
+  },
   "suggest": {
     "ext-mbstring": "Recommended for multibyte string safety"
   },
